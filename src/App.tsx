@@ -111,7 +111,7 @@ const MOBILITY_SKILL_ICONS = [
 const MOB_KNOCK_ICON =
   "https://maplelegends.com/static/images/lib/monster/3230101.png";
 
-const MAP_GRAPHIC = "https://i.imgur.com/s7L7WZk.png";
+const MAP_GRAPHIC = "map-graphic.jpg";
 
 const TOE_ICON =
   "https://maplelegends.com/static/images/lib/item/04032013.png";
