@@ -1,0 +1,483 @@
+[
+  {
+    "from": "Haunted House",
+    "portal": "Rightmost",
+    "to": "Bent Tree",
+    "requiresMap": false
+  },
+  {
+    "from": "Haunted House",
+    "portal": "Leftmost",
+    "to": "Swamp Bog",
+    "requiresMap": false
+  },
+  {
+    "from": "Bent Tree",
+    "portal": "Leftmost",
+    "to": "Haunted House",
+    "requiresMap": false
+  },
+  {
+    "from": "Bent Tree",
+    "portal": "Top Left",
+    "to": "Dead Man's Gorge",
+    "requiresMap": false
+  },
+  {
+    "from": "Bent Tree",
+    "portal": "Middle",
+    "to": "Crossroads (1) (B)",
+    "requiresMap": false
+  },
+  {
+    "from": "Bent Tree",
+    "portal": "Top Right",
+    "to": "Crossroads (2) (B)",
+    "requiresMap": false
+  },
+  {
+    "from": "Bent Tree",
+    "portal": "Rightmost",
+    "to": "Haunted Hill",
+    "requiresMap": false
+  },
+  {
+    "from": "Dead Man's Gorge",
+    "portal": "Leftmost",
+    "to": "Twisted Path (1)",
+    "requiresMap": false
+  },
+  {
+    "from": "Dead Man's Gorge",
+    "portal": "Middle",
+    "to": "Bent Tree",
+    "requiresMap": false
+  },
+  {
+    "from": "Dead Man's Gorge",
+    "portal": "Rightmost",
+    "to": "Twisted Path (4)",
+    "requiresMap": false
+  },
+  {
+    "from": "Swamp Bog",
+    "portal": "Leftmost",
+    "to": "Crossroads (2) (B)",
+    "requiresMap": false
+  },
+  {
+    "from": "Swamp Bog",
+    "portal": "Rightmost",
+    "to": "Haunted House",
+    "requiresMap": false
+  },
+  {
+    "from": "Haunted Hill",
+    "portal": "Leftmost",
+    "to": "Bent Tree",
+    "requiresMap": false
+  },
+  {
+    "from": "Haunted Hill",
+    "portal": "Middle",
+    "to": "Crossroads (1) (T)",
+    "requiresMap": false,
+    "requiresMobility": true
+  },
+  {
+    "from": "Haunted Hill",
+    "portal": "Rightmost",
+    "to": "Crossroads (2) (B)",
+    "requiresMap": false
+  },
+  {
+    "from": "Phantom Road",
+    "portal": "Leftmost",
+    "to": "Twisted Path (2)",
+    "requiresMap": false
+  },
+  {
+    "from": "Phantom Road",
+    "portal": "Rightmost",
+    "to": "Twisted Path (3)",
+    "requiresMap": false
+  },
+  {
+    "from": "Phantom Road",
+    "portal": "Top",
+    "to": "Crossroads (3) (B)",
+    "requiresMap": false
+  },
+  {
+    "from": "Phantom Road",
+    "portal": "Left of Lukan",
+    "to": "Crossroads (2) (B)",
+    "requiresMap": false
+  },
+  {
+    "from": "Phantom Road",
+    "portal": "Top Left",
+    "to": "Crossroads (1) (T)",
+    "requiresMap": false
+  },
+  {
+    "from": "Forgotten Path (T)",
+    "portal": "Drop",
+    "to": "Forgotten Path (B)",
+    "requiresMap": false
+  },
+  {
+    "from": "Forgotten Path (T)",
+    "portal": "Leftmost",
+    "to": "Crossroads (3) (T)",
+    "requiresMap": false
+  },
+  {
+    "from": "Forgotten Path (B)",
+    "portal": "Leftmost",
+    "to": "Twisted Path (4)",
+    "requiresMap": false
+  },
+  {
+    "from": "Forgotten Path (B)",
+    "portal": "Middle",
+    "to": "Crossroads (2) (T)",
+    "requiresMap": false
+  },
+  {
+    "from": "Forgotten Path (B)",
+    "portal": "Rightmost",
+    "to": "Dead Man's Gorge",
+    "requiresMap": false
+  },
+  {
+    "from": "Crossroads (1) (T)",
+    "portal": "Drop",
+    "to": "Crossroads (1) (B)",
+    "requiresMap": false
+  },
+  {
+    "from": "Crossroads (1) (T)",
+    "portal": "Leftmost",
+    "to": "Twisted Path (2)",
+    "requiresMap": false
+  },
+  {
+    "from": "Crossroads (1) (T)",
+    "portal": "Middle",
+    "to": "Haunted Hill",
+    "requiresMap": false
+  },
+  {
+    "from": "Crossroads (1) (T)",
+    "portal": "Rightmost",
+    "to": "Twisted Path (3)",
+    "requiresMap": false
+  },
+  {
+    "from": "Crossroads (1) (B)",
+    "portal": "Leftmost",
+    "to": "Twisted Path (3)",
+    "requiresMap": false
+  },
+  {
+    "from": "Crossroads (1) (B)",
+    "portal": "2nd from Left",
+    "to": "Twisted Path (2)",
+    "requiresMap": false
+  },
+  {
+    "from": "Crossroads (1) (B)",
+    "portal": "2nd Last",
+    "to": "Bent Tree",
+    "requiresMap": false
+  },
+  {
+    "from": "Crossroads (1) (B)",
+    "portal": "Rightmost",
+    "to": "Swamp Bog",
+    "requiresMap": false
+  },
+  {
+    "from": "Crossroads (2) (T)",
+    "portal": "Drop",
+    "to": "Crossroads (2) (B)",
+    "requiresMap": false
+  },
+  {
+    "from": "Crossroads (2) (T)",
+    "portal": "Leftmost",
+    "to": "Twisted Path (1)",
+    "requiresMap": false
+  },
+  {
+    "from": "Crossroads (2) (T)",
+    "portal": "Middle",
+    "to": "Twisted Path (2)",
+    "requiresMap": false
+  },
+  {
+    "from": "Crossroads (2) (T)",
+    "portal": "Rightmost",
+    "to": "Forgotten Path (B)",
+    "requiresMap": false
+  },
+  {
+    "from": "Crossroads (2) (B)",
+    "portal": "Leftmost",
+    "to": "Haunted Hill",
+    "requiresMap": false
+  },
+  {
+    "from": "Crossroads (2) (B)",
+    "portal": "2nd from Left",
+    "to": "Twisted Path (2)",
+    "requiresMap": false
+  },
+  {
+    "from": "Crossroads (2) (B)",
+    "portal": "2nd Last",
+    "to": "Twisted Path (3)",
+    "requiresMap": false
+  },
+  {
+    "from": "Crossroads (2) (B)",
+    "portal": "Rightmost",
+    "to": "Swamp Bog",
+    "requiresMap": false
+  },
+  {
+    "from": "Crossroads (3) (T)",
+    "portal": "Drop",
+    "to": "Crossroads (3) (B)",
+    "requiresMap": false
+  },
+  {
+    "from": "Crossroads (3) (T)",
+    "portal": "Leftmost",
+    "to": "Forgotten Path (T)",
+    "requiresMap": false
+  },
+  {
+    "from": "Crossroads (3) (T)",
+    "portal": "Middle",
+    "to": "Twisted Path (5)",
+    "requiresMap": false
+  },
+  {
+    "from": "Crossroads (3) (T)",
+    "portal": "Rightmost",
+    "to": "Twisted Path (3)",
+    "requiresMap": false
+  },
+  {
+    "from": "Crossroads (3) (B)",
+    "portal": "Leftmost",
+    "to": "Phantom Road",
+    "requiresMap": false
+  },
+  {
+    "from": "Crossroads (3) (B)",
+    "portal": "2nd from Left",
+    "to": "Twisted Path (2)",
+    "requiresMap": false
+  },
+  {
+    "from": "Crossroads (3) (B)",
+    "portal": "Rightmost",
+    "to": "Twisted Path (4)",
+    "requiresMap": false
+  },
+  {
+    "from": "Crossroads (3) (B)",
+    "portal": "2nd Last",
+    "to": "Twisted Path (4)",
+    "requiresMap": false
+  },
+  {
+    "from": "Twisted Path (1)",
+    "portal": "Leftmost",
+    "to": "Twisted Path (2)",
+    "requiresMap": false
+  },
+  {
+    "from": "Twisted Path (1)",
+    "portal": "2nd from Left",
+    "to": "Crossroads (2) (B)",
+    "requiresMap": false
+  },
+  {
+    "from": "Twisted Path (1)",
+    "portal": "Middle",
+    "to": "Dead Man's Gorge",
+    "requiresMap": false
+  },
+  {
+    "from": "Twisted Path (1)",
+    "portal": "2nd Last",
+    "to": "Crossroads (1) (B)",
+    "requiresMap": false
+  },
+  {
+    "from": "Twisted Path (1)",
+    "portal": "Rightmost",
+    "to": "Crossroads (2) (T)",
+    "requiresMap": false
+  },
+  {
+    "from": "Twisted Path (2)",
+    "portal": "Leftmost",
+    "to": "Phantom Road",
+    "requiresMap": false
+  },
+  {
+    "from": "Twisted Path (2)",
+    "portal": "2nd from Left",
+    "to": "Twisted Path (1)",
+    "requiresMap": false
+  },
+  {
+    "from": "Twisted Path (2)",
+    "portal": "Middle",
+    "to": "Crossroads (2) (B)",
+    "requiresMap": false
+  },
+  {
+    "from": "Twisted Path (2)",
+    "portal": "2nd Last",
+    "to": "Twisted Path (1)",
+    "requiresMap": false
+  },
+  {
+    "from": "Twisted Path (2)",
+    "portal": "Rightmost",
+    "to": "Crossroads (1) (B)",
+    "requiresMap": false
+  },
+  {
+    "from": "Twisted Path (3)",
+    "portal": "Leftmost",
+    "to": "Crossroads (1) (B)",
+    "requiresMap": false
+  },
+  {
+    "from": "Twisted Path (3)",
+    "portal": "2nd from Left",
+    "to": "Twisted Path (2)",
+    "requiresMap": false
+  },
+  {
+    "from": "Twisted Path (3)",
+    "portal": "Middle",
+    "to": "Crossroads (2) (B)",
+    "requiresMap": false
+  },
+  {
+    "from": "Twisted Path (3)",
+    "portal": "2nd Last",
+    "to": "Twisted Path (2)",
+    "requiresMap": false
+  },
+  {
+    "from": "Twisted Path (3)",
+    "portal": "Rightmost",
+    "to": "Phantom Road",
+    "requiresMap": false
+  },
+  {
+    "from": "Twisted Path (4)",
+    "portal": "Leftmost",
+    "to": "Crossroads (3) (B)",
+    "requiresMap": false
+  },
+  {
+    "from": "Twisted Path (4)",
+    "portal": "2nd from Left",
+    "to": "Dead Man's Gorge",
+    "requiresMap": false
+  },
+  {
+    "from": "Twisted Path (4)",
+    "portal": "Middle",
+    "to": "Forgotten Path (B)",
+    "requiresMap": false
+  },
+  {
+    "from": "Twisted Path (4)",
+    "portal": "2nd Last",
+    "to": "Dead Man's Gorge",
+    "requiresMap": false
+  },
+  {
+    "from": "Twisted Path (4)",
+    "portal": "Rightmost",
+    "to": "Twisted Path (5)",
+    "requiresMap": false
+  },
+  {
+    "from": "Twisted Path (5)",
+    "portal": "Leftmost",
+    "to": "Twisted Path (3)",
+    "requiresMap": false
+  },
+  {
+    "from": "Twisted Path (5)",
+    "portal": "2nd from Left",
+    "to": "Crossroads (3) (T)",
+    "requiresMap": false
+  },
+  {
+    "from": "Twisted Path (5)",
+    "portal": "Middle",
+    "to": "Twisted Path (4)",
+    "requiresMap": false
+  },
+  {
+    "from": "Twisted Path (5)",
+    "portal": "2nd Last",
+    "to": "Twisted Path (4)",
+    "requiresMap": false
+  },
+  {
+    "from": "Twisted Path (5)",
+    "portal": "Rightmost",
+    "to": "Twisted Path (2)",
+    "requiresMap": false
+  },
+  {
+    "from": "Swamp Bog",
+    "portal": "Archway",
+    "to": "Crossroads (2) (T)",
+    "requiresMap": true
+  },
+  {
+    "from": "Haunted Hill",
+    "portal": "Archway",
+    "to": "Dead Man's Gorge",
+    "requiresMap": true
+  },
+  {
+    "from": "Forgotten Path (T)",
+    "portal": "Archway",
+    "to": "Swamp Bog",
+    "requiresMap": true
+  },
+  {
+    "from": "Crossroads (1) (T)",
+    "portal": "Archway",
+    "to": "Forgotten Path (T)",
+    "requiresMap": true
+  },
+  {
+    "from": "Crossroads (2) (T)",
+    "portal": "Archway",
+    "to": "Forgotten Path (T)",
+    "requiresMap": true
+  },
+  {
+    "from": "Crossroads (3) (T)",
+    "portal": "Archway",
+    "to": "Forgotten Path (T)",
+    "requiresMap": true
+  }
+]
