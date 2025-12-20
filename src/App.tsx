@@ -856,7 +856,7 @@ function App() {
                 Edited map credit:&nbsp;
                 <a href="https://mapleroyals.com/forum/threads/phantom-forest-basic-navigation-for-clueless-people.126167/">
                   Gillies
-                </a>
+                </a>&nbsp;
                 Latest map credit:&nbsp;
                 <a href="https://snailshed.com/phantomforest/">
                   Unknown
