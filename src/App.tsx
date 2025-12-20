@@ -930,6 +930,46 @@ function App() {
                     </td>
                   </tr>
                   <tr>
+                    <td 
+                      style={{
+                        padding: "3px 5px"; 
+                        textAlign: "right"; 
+                        border: "1px solid #333",
+                      }}
+                    >
+                      Circle nodes
+                    </td>
+                    <td
+                      style={{
+                        padding: "3px 5px",
+                        textAlign: "left",
+                        border: "1px solid #333",
+                      }}
+                    >
+                      Portal
+                    </td>
+                  </tr>
+                  <tr>
+                    <td 
+                      style={{
+                        padding: "3px 5px"; 
+                        textAlign: "right"; 
+                        border: "1px solid #333",
+                      }}
+                    >
+                      Diamond node
+                    </td>
+                    <td
+                      style={{
+                        padding: "3px 5px",
+                        textAlign: "left",
+                        border: "1px solid #333",
+                      }}
+                    >
+                      Stone archway (must have Map of the Forest)
+                    </td>
+                  </tr>
+                  <tr>
                     <td
                       style={{
                         padding: "3px 5px",
