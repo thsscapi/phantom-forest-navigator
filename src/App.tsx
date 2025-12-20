@@ -857,6 +857,10 @@ function App() {
                 <a href="https://mapleroyals.com/forum/threads/phantom-forest-basic-navigation-for-clueless-people.126167/">
                   Gillies
                 </a>
+                Latest map credit:&nbsp;
+                <a href="https://snailshed.com/phantomforest/">
+                  Unknown
+                </a>
               </div>
 
               {/* Legend */}
@@ -932,8 +936,8 @@ function App() {
                   <tr>
                     <td 
                       style={{
-                        padding: "3px 5px"; 
-                        textAlign: "right"; 
+                        padding: "3px 5px", 
+                        textAlign: "right",
                         border: "1px solid #333",
                       }}
                     >
@@ -952,8 +956,8 @@ function App() {
                   <tr>
                     <td 
                       style={{
-                        padding: "3px 5px"; 
-                        textAlign: "right"; 
+                        padding: "3px 5px",
+                        textAlign: "right", 
                         border: "1px solid #333",
                       }}
                     >
