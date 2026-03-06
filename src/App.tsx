@@ -117,6 +117,8 @@ const TOE_ICON =
   "https://maplelegends.com/static/images/lib/item/04032013.png";
 const HORSEMAN_ICON =
   "https://maplelegends.com/static/images/lib/item/04031903.png";
+const WRISTBAND_ICON =
+  "https://maplelegends.com/static/images/lib/character/01082232.png"
 const KOFI_ICON = 
   "https://maplelegends.com/static/images/lib/item/02030008.png";
 
@@ -1052,8 +1054,8 @@ function App() {
             >
               <img
                 alt="Map of Phantom Forest"
-                src={MAP_ICON}
-                style={{ height: "1em", verticalAlign: "middle" }}
+                src={WRISTBAND_ICON}
+                style={{ height: "1em", verticalAlign: "middle" marginRight: "4px" }}
               />
               OPQ Helper
             </a>
