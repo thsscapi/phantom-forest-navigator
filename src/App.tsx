@@ -117,8 +117,6 @@ const TOE_ICON =
   "https://maplelegends.com/static/images/lib/item/04032013.png";
 const HORSEMAN_ICON =
   "https://maplelegends.com/static/images/lib/item/04031903.png";
-const MAP_ICON = 
-  "https://maplelegends.com/static/images/lib/item/03992040.png";
 const KOFI_ICON = 
   "https://maplelegends.com/static/images/lib/item/02030008.png";
 
