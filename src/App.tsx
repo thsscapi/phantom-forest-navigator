@@ -117,6 +117,10 @@ const TOE_ICON =
   "https://maplelegends.com/static/images/lib/item/04032013.png";
 const HORSEMAN_ICON =
   "https://maplelegends.com/static/images/lib/item/04031903.png";
+const MAP_ICON = 
+  "https://maplelegends.com/static/images/lib/item/03992040.png";
+const KOFI_ICON = 
+  "https://maplelegends.com/static/images/lib/item/02030008.png";
 
 function App() {
   const [start, setStart] = useState("Haunted House");
@@ -1043,6 +1047,28 @@ function App() {
           >
             Made with love for&nbsp;
             <a
+              href="https://orbis-pq-helper.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+              style={{ color: "#9ad1ff", textDecoration: "underline" }}
+            >
+              <img
+                alt="Map of Phantom Forest"
+                src={MAP_ICON}
+                style={{ height: "1em", verticalAlign: "middle" }}
+              />
+              OPQ Helper
+            </a>
+          </div>
+          <div
+            style={{
+              fontSize: "0.8rem",
+              opacity: 0.85,
+              textAlign: "center",
+            }}
+          >
+            Made with love for&nbsp;
+            <a
               href="https://maplelegends.com/"
               target="_blank"
               rel="noreferrer"
@@ -1058,6 +1084,39 @@ function App() {
               style={{ color: "#9ad1ff", textDecoration: "underline" }}
             >
               ML forums.
+            </a>
+          </div>
+          <div
+            style={{
+              paddingTop: "0.5rem",
+              fontSize: "0.8rem",
+              opacity: 0.85,
+              textAlign: "center",
+            }}
+          >
+            <a
+              href="https://ko-fi.com/thsscapi"
+              target="_blank"
+              rel="noreferrer"
+              style={{ 
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 6,
+                padding: "0.25rem 0.5rem",
+                borderRadius: 6,
+                border: "1px solid #444",
+                background: "#111822",
+                color: "#eee",
+                textDecoration: "none",
+                fontSize: "0.85rem", 
+              }}
+            >
+              <img
+                alt="Coffee Milk"
+                src={KOFI_ICON}
+                style={{ height: "1em", verticalAlign: "middle", marginRight: "4px" }}
+              />
+              If you found this tool useful, consider giving me a tip
             </a>
           </div>
 
