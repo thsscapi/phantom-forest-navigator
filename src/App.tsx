@@ -1055,7 +1055,7 @@ function App() {
               <img
                 alt="Map of Phantom Forest"
                 src={WRISTBAND_ICON}
-                style={{ height: "1em", verticalAlign: "middle" marginRight: "4px" }}
+                style={{ height: "1em", verticalAlign: "middle", marginRight: "4px" }}
               />
               OPQ Helper
             </a>
