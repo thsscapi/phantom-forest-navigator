@@ -1045,7 +1045,7 @@ function App() {
               textAlign: "center",
             }}
           >
-            Made with love for&nbsp;
+            Other MapleLegends tools by Sparrow:&nbsp;
             <a
               href="https://orbis-pq-helper.vercel.app/"
               target="_blank"
