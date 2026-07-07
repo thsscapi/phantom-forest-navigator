@@ -83,44 +83,44 @@ function findShortestPath(
 
 // Icons
 const MAP_ICON =
-  "https://maplelegends.com/static/images/lib/item/03992040.png";
+  "https://legends.ml/static/images/lib/item/03992040.png";
 
 const MOBILITY_SKILL_ICONS = [
   {
     name: "Teleport",
-    src: "https://maplelegends.com/static/images/lib/skill/2101002.png",
+    src: "https://legends.ml/static/images/lib/skill/2101002.png",
   },
   {
     name: "Flash Jump",
-    src: "https://maplelegends.com/static/images/lib/skill/4111006.png",
+    src: "https://legends.ml/static/images/lib/skill/4111006.png",
   },
   {
     name: "Assaulter",
-    src: "https://maplelegends.com/static/images/lib/skill/4211002.png",
+    src: "https://legends.ml/static/images/lib/skill/4211002.png",
   },
   {
     name: "Corkscrew Blow",
-    src: "https://maplelegends.com/static/images/lib/skill/5101004.png",
+    src: "https://legends.ml/static/images/lib/skill/5101004.png",
   },
   {
     name: "Recoil Shot",
-    src: "https://maplelegends.com/static/images/lib/skill/5201006.png",
+    src: "https://legends.ml/static/images/lib/skill/5201006.png",
   },
 ];
 
 const MOB_KNOCK_ICON =
-  "https://maplelegends.com/static/images/lib/monster/3230101.png";
+  "https://legends.ml/static/images/lib/monster/3230101.png";
 
 const MAP_GRAPHIC = "map-graphic.jpg";
 
 const TOE_ICON =
-  "https://maplelegends.com/static/images/lib/item/04032013.png";
+  "https://legends.ml/static/images/lib/item/04032013.png";
 const HORSEMAN_ICON =
-  "https://maplelegends.com/static/images/lib/item/04031903.png";
+  "https://legends.ml/static/images/lib/item/04031903.png";
 const WRISTBAND_ICON =
-  "https://maplelegends.com/static/images/lib/character/01082232.png"
+  "https://legends.ml/static/images/lib/character/01082232.png"
 const KOFI_ICON = 
-  "https://maplelegends.com/static/images/lib/item/02030008.png";
+  "https://legends.ml/static/images/lib/item/02030008.png";
 
 function App() {
   const [start, setStart] = useState("Haunted House");
@@ -400,7 +400,7 @@ function App() {
                     {" "}
                     (
                     <a
-                      href="https://forum.maplelegends.com/index.php?threads/guide-crimsonwood-keep-cwk-pre-quests.54671/"
+                      href="https://forum.legends.ml/index.php?threads/guide-crimsonwood-keep-cwk-pre-quests.54671/"
                       target="_blank"
                       rel="noreferrer"
                       style={{
@@ -580,7 +580,7 @@ function App() {
                     }}
                   >
                     <img
-                      src="https://maplelegends.com/static/images/lib/item/04032031.png"
+                      src="https://legends.ml/static/images/lib/item/04032031.png"
                       alt="Lucky Charm"
                       style={{
                         height: 20,
@@ -612,7 +612,7 @@ function App() {
                     }}
                   >
                     <img
-                      src="https://maplelegends.com/static/images/lib/item/04032011.png"
+                      src="https://legends.ml/static/images/lib/item/04032011.png"
                       alt="Soiled Rags"
                       style={{
                         height: 20,
@@ -1069,7 +1069,7 @@ function App() {
           >
             Made with love for&nbsp;
             <a
-              href="https://maplelegends.com/"
+              href="https://legends.ml/"
               target="_blank"
               rel="noreferrer"
               style={{ color: "#9ad1ff", textDecoration: "underline" }}
@@ -1078,7 +1078,7 @@ function App() {
             </a>
             , but not affiliated. For feedback, please DM thsscapi on&nbsp;
             <a
-              href="https://forum.maplelegends.com/index.php?conversations/add&to=thsscapi"
+              href="https://forum.legends.ml/index.php?conversations/add&to=thsscapi"
               target="_blank"
               rel="noreferrer"
               style={{ color: "#9ad1ff", textDecoration: "underline" }}
