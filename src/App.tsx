@@ -1058,6 +1058,19 @@ function App() {
                 style={{ height: "1em", verticalAlign: "middle", marginRight: "4px" }}
               />
               OPQ Helper
+            </a>{" "}
+            <a
+              href="https://afk-service-helper.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+              style={{ color: "#9ad1ff", textDecoration: "underline" }}
+            >
+              <img
+                alt="Resurrection"
+                src="https://legends.ml/static/images/lib/skill/2321006.png"
+                style={{ height: "1em", verticalAlign: "middle", marginRight: "4px" }}
+              />
+              AFK Service Helper
             </a>
           </div>
           <div
