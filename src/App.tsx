@@ -1,3 +1,4 @@
+import "./sparrow-brand.css";
 import type React from "react";
 import { useEffect, useMemo, useState } from "react";
 import edgesRaw from "./phantom-forest-edges.json";
@@ -117,10 +118,6 @@ const TOE_ICON =
   "https://legends.ml/static/images/lib/item/04032013.png";
 const HORSEMAN_ICON =
   "https://legends.ml/static/images/lib/item/04031903.png";
-const WRISTBAND_ICON =
-  "https://legends.ml/static/images/lib/character/01082232.png"
-const KOFI_ICON = 
-  "https://legends.ml/static/images/lib/item/02030008.png";
 
 function App() {
   const [start, setStart] = useState("Haunted House");
@@ -215,7 +212,7 @@ function App() {
         key="map-start"
         style={{
           fontWeight: 700,
-          color: "#ffd966",
+          color: "#f1a34c",
           whiteSpace: "normal",
           textAlign: "center",
         }}
@@ -247,9 +244,9 @@ function App() {
           style={{
             padding: "2px 10px",
             borderRadius: 999,
-            background: "#5a4528",
-            border: "1px solid #8b6a3d",
-            fontFamily: "monospace",
+            background: "#302218",
+            border: "1px solid #c96a00",
+            fontFamily: "system-ui, sans-serif",
             fontSize: "0.85rem",
             margin: "0 auto",
             display: "inline-block",
@@ -280,7 +277,7 @@ function App() {
           key={`${keyBase}-map`}
           style={{
             fontWeight: 700,
-            color: "#ffd966",
+            color: "#f1a34c",
             whiteSpace: "normal",
             textAlign: "center",
           }}
@@ -322,7 +319,7 @@ function App() {
         style={{
           width: "100%",
           minHeight: "100vh",
-          background: "#050509",
+          background: "#0b0f14",
           color: "#eee",
           fontFamily:
             "system-ui, -apple-system, BlinkMacSystemFont, sans-serif",
@@ -405,7 +402,7 @@ function App() {
                       rel="noreferrer"
                       style={{
                         textDecoration: "underline",
-                        color: "#9ad1ff",
+                        color: "#fc8500",
                         whiteSpace: "nowrap",
                       }}
                     >
@@ -1035,103 +1032,7 @@ function App() {
               </table>
             </div>
           </div>
-          <div
-            style={{
-              marginTop: "1rem",
-              paddingTop: "0.5rem",
-              borderTop: "1px solid #333",
-              fontSize: "0.8rem",
-              opacity: 0.85,
-              textAlign: "center",
-            }}
-          >
-            Other MapleLegends tools by Sparrow:&nbsp;
-            <a
-              href="https://orbis-pq-helper.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-              style={{ color: "#9ad1ff", textDecoration: "underline" }}
-            >
-              <img
-                alt="Map of Phantom Forest"
-                src={WRISTBAND_ICON}
-                style={{ height: "1em", verticalAlign: "middle", marginRight: "4px" }}
-              />
-              OPQ Helper
-            </a>{" "}
-            <a
-              href="https://afk-service-helper.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-              style={{ color: "#9ad1ff", textDecoration: "underline" }}
-            >
-              <img
-                alt="Resurrection"
-                src="https://legends.ml/static/images/lib/skill/2321006.png"
-                style={{ height: "1em", verticalAlign: "middle", marginRight: "4px" }}
-              />
-              AFK Service Helper
-            </a>
-          </div>
-          <div
-            style={{
-              fontSize: "0.8rem",
-              opacity: 0.85,
-              textAlign: "center",
-            }}
-          >
-            Made with love for&nbsp;
-            <a
-              href="https://legends.ml/"
-              target="_blank"
-              rel="noreferrer"
-              style={{ color: "#9ad1ff", textDecoration: "underline" }}
-            >
-              MapleLegends
-            </a>
-            , but not affiliated. For feedback, please DM thsscapi on&nbsp;
-            <a
-              href="https://forum.legends.ml/index.php?conversations/add&to=thsscapi"
-              target="_blank"
-              rel="noreferrer"
-              style={{ color: "#9ad1ff", textDecoration: "underline" }}
-            >
-              ML forums.
-            </a>
-          </div>
-          <div
-            style={{
-              paddingTop: "0.5rem",
-              fontSize: "0.8rem",
-              opacity: 0.85,
-              textAlign: "center",
-            }}
-          >
-            <a
-              href="https://ko-fi.com/thsscapi"
-              target="_blank"
-              rel="noreferrer"
-              style={{ 
-                display: "inline-flex",
-                alignItems: "center",
-                gap: 6,
-                padding: "0.25rem 0.5rem",
-                borderRadius: 6,
-                border: "1px solid #444",
-                background: "#111822",
-                color: "#eee",
-                textDecoration: "none",
-                fontSize: "0.85rem", 
-              }}
-            >
-              <img
-                alt="Coffee Milk"
-                src={KOFI_ICON}
-                style={{ height: "1em", verticalAlign: "middle", marginRight: "4px" }}
-              />
-              If you found this tool useful, consider giving me a tip
-            </a>
-          </div>
+<footer className="sparrowFooter"><div className="sparrowFooterInner"><div className="sparrowFooterLeft"><div>Other MapleLegends tools by Sparrow:</div><nav className="sparrowOtherApps" aria-label="Other tools by Sparrow"><a href="https://orbis-pq-helper.vercel.app/" target="_blank" rel="noopener noreferrer"><img src="https://legends.ml/static/images/lib/character/01082232.png" alt="" loading="lazy" />Orbis PQ Helper</a><a href="https://afk-service-helper.vercel.app/" target="_blank" rel="noopener noreferrer"><img src="https://legends.ml/static/images/lib/skill/2321006.png" alt="" loading="lazy" />AFK Service Helper</a><a href="https://stat-per-wa.vercel.app/" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">🧮</span>Stat per WA Calculator</a></nav><div className="sparrowFooterCredits">Made with love for <a href="https://legends.ml/" target="_blank" rel="noopener noreferrer">MapleLegends</a>, but not affiliated. For feedback, please DM thsscapi on <a href="https://forum.legends.ml/index.php?conversations/add&amp;to=thsscapi" target="_blank" rel="noopener noreferrer">ML forums</a>.</div></div><a href="https://ko-fi.com/thsscapi" target="_blank" rel="noopener noreferrer" className="sparrowDonate"><img src="https://legends.ml/static/images/lib/item/02030008.png" alt="Coffee Milk" loading="lazy" />If you found this tool useful, consider giving me a tip</a></div></footer>
 
         </div>
       </div>
