@@ -1,0 +1,16 @@
+:root{color-scheme:dark;font-family:system-ui,sans-serif;color:#f3f4f6;background:#0b0f14}body{background:#0b0f14;color:#f3f4f6}a{color:#fc8500}a:hover{color:#ffc078}button,input,select{font-family:inherit}button:hover{border-color:#fc8500}button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #fc8500;outline-offset:2px}input[type=checkbox]{accent-color:#fc8500}select{color:#f3f4f6;background:#121821;border:1px solid rgba(252,133,0,.35);border-radius:8px}@media(prefers-color-scheme:light){:root,body{color:#f3f4f6;background:#0b0f14}a:hover{color:#ffc078}button{background:#1a1a1a;color:#f3f4f6}}
+/* Shared Sparrow branding */
+.sparrowFooter{margin-top:28px;padding-top:14px;border-top:1px solid rgba(255,255,255,.15);font:12px/1.6 system-ui,sans-serif;color:#a5a8af;text-align:left;width:100%;box-sizing:border-box}
+.sparrowFooterInner{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+.sparrowFooterLeft{flex:1;min-width:250px}
+.sparrowOtherApps{display:flex;gap:8px 16px;flex-wrap:wrap;margin-top:8px}
+.sparrowOtherApps a{display:inline-flex;align-items:center;gap:5px;white-space:nowrap}
+.sparrowFooter a{color:#fc8500;text-decoration:none}
+.sparrowFooter a:hover{color:#ffc078;text-decoration:underline}
+.sparrowOtherApps img{width:16px;height:16px;object-fit:contain;image-rendering:pixelated}
+.sparrowFooterCredits{margin-top:12px;font-size:11px}
+.sparrowDonate{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(252,133,0,.5);border-radius:10px;padding:8px 12px;font-size:12px;font-weight:700;max-width:290px}
+.sparrowDonate img{width:16px;height:20px;object-fit:contain;image-rendering:pixelated}
+.sparrowFooter .sparrowDonate:hover{background:#c96a00;color:#f7f7f7;text-decoration:none}
+.sparrowFooter a:focus-visible{outline:2px solid #fc8500;outline-offset:4px}
+@media(max-width:700px){.sparrowFooterInner{display:block}.sparrowFooterLeft{min-width:0}.sparrowDonate{margin-top:16px}.sparrowOtherApps a{white-space:normal}}
