@@ -342,7 +342,7 @@ function App() {
           </p>
 
           <p style={{ margin: "0 0 1.5rem 0", fontSize: "0.85rem", opacity: 0.7, textAlign: "center" }}>
-            Created by: <strong>thsscapi (Sparrow)</strong>
+            Created by: <strong>thsscapi (Sparrow)</strong> · <a href="https://sparrowtools.net/">Browse my other tools</a>
           </p>
 
 
