@@ -1063,7 +1063,7 @@ function App() {
               </table>
             </div>
           </div>
-<footer className="sparrowFooter"><div className="sparrowFooterInner"><div className="sparrowFooterLeft"><a href="https://sparrowtools.net/" className="sparrowDonate"><img src="https://sparrowtools.net/sparrow.svg" width="20" height="20" alt="" style={{ verticalAlign: "middle", marginRight: 5 }} />Browse Sparrow Tools</a><div className="sparrowFooterCredits">Made with love for <a href="https://legends.ml/" target="_blank" rel="noopener noreferrer">MapleLegends</a>, but not affiliated. For feedback, please DM thsscapi on <a href="https://forum.legends.ml/index.php?conversations/add&amp;to=thsscapi" target="_blank" rel="noopener noreferrer">ML forums</a>.</div></div><a href="https://ko-fi.com/thsscapi" target="_blank" rel="noopener noreferrer" className="sparrowDonate"><img src="https://legends.ml/static/images/lib/item/02030008.png" alt="Coffee Milk" loading="lazy" />If you found this tool useful, consider giving me a tip</a></div></footer>
+<footer className="sparrowFooter"><div className="sparrowFooterInner"><div className="sparrowFooterLeft"><a href="https://sparrowtools.net/" className="sparrowDonate"><img src="https://sparrowtools.net/sparrow.svg" width="20" height="20" alt="" style={{ verticalAlign: "middle", marginRight: 5 }} />Browse Sparrow Tools</a><div className="sparrowFooterCredits">Made with love for <a href="https://legends.ml/" target="_blank" rel="noopener noreferrer">MapleLegends</a>, but not affiliated. For feedback, please DM thsscapi on <a href="https://forum.legends.ml/index.php?conversations/add&amp;to=thsscapi" target="_blank" rel="noopener noreferrer">ML forums</a>.</div></div></div></footer>
 
         </div>
       </div>
