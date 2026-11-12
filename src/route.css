@@ -1,0 +1,9 @@
+.route-share{display:flex;align-items:center;flex-wrap:wrap;gap:.5rem;margin-top:.75rem}
+.route-share button{padding:.4rem .75rem;border:1px solid #fc8500;border-radius:8px;background:#25201a;color:inherit;cursor:pointer;transition:background-color 140ms}
+.route-share button:hover,.route-share button:focus-visible{background:#463019}
+.route-share input{flex:1 0 100%;min-width:0}
+.route-share [role="status"]{font-size:.85rem}
+@media (prefers-reduced-motion:no-preference){
+  .route-result{animation:route-appear 180ms ease-out}
+  @keyframes route-appear{from{opacity:.45;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+}

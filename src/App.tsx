@@ -1,4 +1,5 @@
 import "./sparrow-brand.css";
+import "./route.css";
 import type React from "react";
 import { useEffect, useMemo, useState } from "react";
 import edgesRaw from "./phantom-forest-edges.json";
@@ -119,29 +120,49 @@ const TOE_ICON =
 const HORSEMAN_ICON =
   "https://legends.ml/static/images/lib/item/04031903.png";
 
+const maps = [...new Set(edges.flatMap(({ from, to }) => [from, to]))].sort();
+
+function readRoute() {
+  const params = new URLSearchParams(window.location.search);
+  const map = (key: string, fallback: string) => {
+    const value = params.get(key);
+    return value && maps.includes(value) ? value : fallback;
+  };
+  return {
+    start: map("from", "Haunted House"),
+    end: map("to", "Bent Tree"),
+    hasMap: params.get("map") !== "0",
+    hasMobility: params.get("mobility") !== "0",
+  };
+}
+
 function App() {
-  const [start, setStart] = useState("Haunted House");
-  const [end, setEnd] = useState("Bent Tree");
-  const [hasMap, setHasMap] = useState(true);
-  const [hasMobility, setHasMobility] = useState(true);
-  const [result, setResult] = useState<Step[] | null>(null);
+  const [initial] = useState(readRoute);
+  const [start, setStart] = useState(initial.start);
+  const [end, setEnd] = useState(initial.end);
+  const [hasMap, setHasMap] = useState(initial.hasMap);
+  const [hasMobility, setHasMobility] = useState(initial.hasMobility);
+  const [shareFeedback, setShareFeedback] = useState<{ url: string; copied: boolean } | null>(null);
   const [showKnockTip, setShowKnockTip] = useState(false);
   const [showMapModal, setShowMapModal] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
-  const maps = useMemo(() => {
-    const s = new Set<string>();
-    for (const e of edges) {
-      s.add(e.from);
-      s.add(e.to);
-    }
-    return Array.from(s).sort();
-  }, []);
+  const result = useMemo(() => findShortestPath(start, end, hasMap, hasMobility), [start, end, hasMap, hasMobility]);
+  const shareUrl = new URL(window.location.pathname, window.location.origin);
+  shareUrl.search = new URLSearchParams({
+    from: start, to: end, map: hasMap ? "1" : "0", mobility: hasMobility ? "1" : "0",
+  }).toString();
+  const feedback = shareFeedback?.url === shareUrl.href ? shareFeedback : null;
 
-  useEffect(() => {
-    const path = findShortestPath(start, end, hasMap, hasMobility);
-    setResult(path);
-  }, [start, end, hasMap, hasMobility]);
+  async function shareRoute() {
+    const url = shareUrl.href;
+    try {
+      await navigator.clipboard.writeText(url);
+      setShareFeedback({ url, copied: true });
+    } catch {
+      setShareFeedback({ url, copied: false });
+    }
+  }
 
   useEffect(() => {
     const handleResize = () => {
@@ -814,7 +835,17 @@ function App() {
                   </label>
                 </div>
               )}
-              {renderResult()}
+              <div className="route-result" key={JSON.stringify(result)} aria-live="polite">
+                {renderResult()}
+              </div>
+              <div className="route-share">
+                <button type="button" onClick={shareRoute}>Share Route</button>
+                <span role="status">{feedback?.copied ? "Link copied." : feedback ? "Copy this link:" : ""}</span>
+                {feedback && !feedback.copied && (
+                  <input aria-label="Shareable route link" readOnly value={feedback.url}
+                    onFocus={(event) => event.currentTarget.select()} />
+                )}
+              </div>
             </div>
 
             {/* RIGHT COLUMN: map + legend */}
