@@ -2,6 +2,7 @@ import "./sparrow-brand.css";
 import "./route.css";
 import type React from "react";
 import { useEffect, useMemo, useState } from "react";
+import { Analytics } from '@vercel/analytics/react';
 import edgesRaw from "./phantom-forest-edges.json";
 
 type Edge = {
@@ -1121,6 +1122,7 @@ function App() {
           </div>
         </div>
       )}
+      <Analytics />
     </>
   );
 }
