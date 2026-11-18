@@ -1,0 +1,8 @@
+{
+  "name": "sparrow-phantomforest",
+  "compatibility_date": "2026-11-18",
+  "assets": { "directory": "./dist" },
+  "routes": [{ "pattern": "phantomforest.sparrowtools.net", "custom_domain": true }],
+  "workers_dev": false,
+  "preview_urls": false
+}
