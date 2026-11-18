@@ -86,40 +86,40 @@ function findShortestPath(
 
 // Icons
 const MAP_ICON =
-  "https://legends.ml/static/images/lib/item/03992040.png";
+  "/images/item/03992040.png";
 
 const MOBILITY_SKILL_ICONS = [
   {
     name: "Teleport",
-    src: "https://legends.ml/static/images/lib/skill/2101002.png",
+    src: "/images/skill/2101002.png",
   },
   {
     name: "Flash Jump",
-    src: "https://legends.ml/static/images/lib/skill/4111006.png",
+    src: "/images/skill/4111006.png",
   },
   {
     name: "Assaulter",
-    src: "https://legends.ml/static/images/lib/skill/4211002.png",
+    src: "/images/skill/4211002.png",
   },
   {
     name: "Corkscrew Blow",
-    src: "https://legends.ml/static/images/lib/skill/5101004.png",
+    src: "/images/skill/5101004.png",
   },
   {
     name: "Recoil Shot",
-    src: "https://legends.ml/static/images/lib/skill/5201006.png",
+    src: "/images/skill/5201006.png",
   },
 ];
 
 const MOB_KNOCK_ICON =
-  "https://legends.ml/static/images/lib/monster/3230101.png";
+  "/images/monster/3230101.png";
 
 const MAP_GRAPHIC = "map-graphic.jpg";
 
 const TOE_ICON =
-  "https://legends.ml/static/images/lib/item/04032013.png";
+  "/images/item/04032013.png";
 const HORSEMAN_ICON =
-  "https://legends.ml/static/images/lib/item/04031903.png";
+  "/images/item/04031903.png";
 
 const maps = [...new Set(edges.flatMap(({ from, to }) => [from, to]))].sort();
 
@@ -599,7 +599,7 @@ function App() {
                     }}
                   >
                     <img
-                      src="https://legends.ml/static/images/lib/item/04032031.png"
+                      src="/images/item/04032031.png"
                       alt="Lucky Charm"
                       style={{
                         height: 20,
@@ -631,7 +631,7 @@ function App() {
                     }}
                   >
                     <img
-                      src="https://legends.ml/static/images/lib/item/04032011.png"
+                      src="/images/item/04032011.png"
                       alt="Soiled Rags"
                       style={{
                         height: 20,
